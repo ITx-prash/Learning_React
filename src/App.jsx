@@ -4,7 +4,9 @@ import Greeting from "./components/Greeting";
 import Header from "./components/Header";
 import JsxRules from "./components/JsxRules";
 import MainContent from "./components/MainContent";
+import Map from "./components/Map";
 import ProductInfo from "./components/ProductInfo";
+import UserList from "./components/UserList";
 
 const App = () => {
   return (
@@ -17,6 +19,8 @@ const App = () => {
       <Expn_JSX />
       <Greeting />
       <ProductInfo />
+      <Map />
+      <UserList />
     </>
   );
 };
