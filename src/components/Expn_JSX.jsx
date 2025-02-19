@@ -1,16 +1,14 @@
 import React from "react";
 
 function Expn_JSX() {
-  const name = "Prashant";
-  const greet = (name) => {
-    return `Hello ${name}, how are you doing?`;
-  };
-    const user = greet(name);
+  const multiply = (a, b) => {
+    return a * b;
+  }
+  const value = multiply(5, 10);
   return (
     <div>
-      <p>{2 + 2}</p>
     
-      <p>{user}</p>
+      <p>5*10={value}</p>
     </div>
   );
 }
