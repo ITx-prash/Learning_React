@@ -1,6 +1,8 @@
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import JsxRules from "./components/JsxRules";
 import MainContent from "./components/MainContent";
+
 const App = () => {
   return (
     <>
@@ -8,6 +10,8 @@ const App = () => {
       <Header />
       <MainContent />
       <Footer />
+      <JsxRules />
+     <Expn_JSX />
     </>
   );
 };
