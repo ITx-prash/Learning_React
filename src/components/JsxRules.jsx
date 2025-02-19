@@ -1,9 +1,9 @@
 import React from "react";
 
-function JsxRules() {
+const JsxRules=()=> {
   return (
     <div>
-      <p><h2 className="font-bold text-red-500 mt-5">JSX Rules</h2>
+      <h2 className="font-bold text-red-500 mt-5">JSX Rules</h2>
         <ul className="list-disc list-inside">
           <li >JSX must return a single parent element.</li>
           <li>JSX elements must be properly closed. </li>
@@ -12,7 +12,7 @@ function JsxRules() {
             of class).
           </li>
         </ul>
-      </p>
+      
     </div>
   );
 }

@@ -1,3 +1,4 @@
+import Expn_JSX from "./components/Expn_JSX";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import JsxRules from "./components/JsxRules";
@@ -11,7 +12,7 @@ const App = () => {
       <MainContent />
       <Footer />
       <JsxRules />
-     <Expn_JSX />
+      <Expn_JSX />
     </>
   );
 };

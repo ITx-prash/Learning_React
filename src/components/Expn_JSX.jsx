@@ -1,7 +1,18 @@
-import React from 'react'
+import React from "react";
 
-export default function Expn_JSX() {
+function Expn_JSX() {
+  const name = "Prashant";
+  const greet = (name) => {
+    return `Hello ${name}, how are you doing?`;
+  };
+    const user = greet(name);
   return (
-    <div>Expn_JSX</div>
-  )
+    <div>
+      <p>{2 + 2}</p>
+    
+      <p>{user}</p>
+    </div>
+  );
 }
+
+export default Expn_JSX;
