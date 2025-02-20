@@ -1,0 +1,14 @@
+{
+  "name": "Extensions Installed",
+  "image": "mcr.microsoft.com/vscode/devcontainers/base:0-focal",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dsznajder.es7-react-js-snippets",
+        "esbenp.prettier-vscode",
+        "PrashantAdhikari.sleekweave-dark",
+        "vscode-icons-team.vscode-icons"
+      ]
+    }
+  }
+}
