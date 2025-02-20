@@ -11,11 +11,11 @@ function UserList() {
   return (
     <div>
       {users.map((usr) => (
-        <ul key={usr["id"]}>
-          <li>
-            {usr.name} : {usr.age}
-          </li>
-        </ul>
+        <div key={usr["id"]}>
+          <br />
+          <h1>Name:{usr.name}</h1>
+          <h1>Age: {usr.age}</h1>
+        </div>
       ))}
     </div>
   );
