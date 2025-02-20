@@ -6,6 +6,7 @@ import JsxRules from "./components/JsxRules";
 import MainContent from "./components/MainContent";
 import Map from "./components/Map";
 import ProductInfo from "./components/ProductInfo";
+import ProductList from "./components/ProductList";
 import UserList from "./components/UserList";
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
       <ProductInfo />
       <Map />
       <UserList />
+      <ProductList/>
     </>
   );
 };
