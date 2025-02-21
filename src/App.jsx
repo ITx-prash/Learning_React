@@ -8,7 +8,8 @@ import Map from "./components/Map";
 import ProductInfo from "./components/ProductInfo";
 import ProductList from "./components/ProductList";
 import UserList from "./components/UserList";
-
+import Person from "./components/Person";
+import Product from "./components/Product";
 const App = () => {
   return (
     <>
@@ -22,7 +23,9 @@ const App = () => {
       <ProductInfo />
       <Map />
       <UserList />
-      <ProductList/>
+      <ProductList />
+      <Person name="Prashant" age={19} />
+      <Product name="Iphone 16 Pro Max" price="$999"/>
     </>
   );
 };
